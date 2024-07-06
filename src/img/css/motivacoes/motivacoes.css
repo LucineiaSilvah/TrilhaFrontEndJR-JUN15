@@ -1,0 +1,23 @@
+.motivacoes{
+  background: var(--preto);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+.motivacoes__descricao{
+  text-align: center;
+
+}
+.motivacoes__descricao p{
+  line-height: 1.2rem;
+  margin: 10px;
+}
+.motivacoes__descricao s{
+  padding: 5px;
+}
+.motivacoes__descricao span{
+  color: var(--vermelho);
+  font-weight: 500;
+}

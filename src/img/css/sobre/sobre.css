@@ -1,0 +1,10 @@
+.sobre{
+  text-align: center;
+  padding: 10px;
+  background: var(--preto);
+}
+.sobre__descricao{
+  margin-top: 20px;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+}
