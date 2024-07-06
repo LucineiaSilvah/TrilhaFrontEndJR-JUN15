@@ -22,3 +22,35 @@ box-shadow: 0 4px 8px var(--preto);
 }
 
 
+@media screen and (min-width:710px) {
+  .gostos__lista{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   padding-top: 30px;
+  }
+  .gostos__card{
+   margin:80px  auto;
+
+   width: 250px;
+
+  }
+  .gostos__card p{
+    text-transform: uppercase;
+     color: var(--vermelho);
+     font-weight: 400;
+  }
+ .gostos__card i{
+  scale: 2;
+ }
+ .gostos__card .icon{
+  width: 80px;
+  height: 80px;
+ } 
+}
+@media screen and (min-width:1200px) {
+  .cabecalho{
+    width: 100%;
+    border: 1px solid rgb(125, 19, 19);
+  
+  }
+}

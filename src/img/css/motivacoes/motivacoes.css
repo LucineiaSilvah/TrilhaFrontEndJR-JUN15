@@ -21,3 +21,20 @@
   color: var(--vermelho);
   font-weight: 500;
 }
+
+@media screen and (min-width:710px) {
+  .motivacoes{
+    font-size: 2rem;
+  }
+  .motivacoes p{
+
+  line-height: 3rem;
+  }
+}
+@media screen and (min-width:1200px) {
+  .cabecalho{
+    width: 100%;
+    border: 1px solid rgb(125, 19, 19);
+  
+  }
+}

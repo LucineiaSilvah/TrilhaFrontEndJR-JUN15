@@ -31,13 +31,20 @@ background: var(--preto);
   left: 0;
   right: 0;
   background: var(--preto);
-}
-.menu__close{
   display: none;
+}
 
+.open{
+  display: flex;
 }
 .menu__lista a{
   color: var(--vermelho);
+  padding-bottom: 10px;
+font-weight: 500;
+
+}
+.menu__lista a:hover{
+  color: var(--branco);
   padding-bottom: 10px;
 font-weight: 500;
 
@@ -49,13 +56,43 @@ font-weight: 500;
   position: absolute;
   color: var(--vermelho);
 }
-@media screen and (min-width:720px) {
+@media screen and (min-width:700px) {
+  .fa-bars{
+    top: 40px;
+    right: 40px;
+    position: absolute;
+    color: var(--vermelho);
+    scale: 3;
+  }
+  .logo{
+    width: 150px;
+    height: 100px;
+ 
+}
+.menu__lista a{
+  color: var(--vermelho);
+  padding-bottom: 10px;
+font-weight: 500;
+font-size: 2rem;
+
+}
+.menu__lista li{
+  margin: 10px;
+};
+/*toggle*/
+
+
+}
+@media screen and (min-width:1200px) {
   .cabecalho{
     width: 100%;
     border: 1px solid rgb(125, 19, 19);
   
   }
 }
+
+
+
 @keyframes movimento {
   from{
   opacity: 0 ;

@@ -33,3 +33,29 @@ h2{
 span, span a{
   color: var(--vermelho);
 }
+
+
+@media screen and (min-width:700px) {
+ .sessao{
+  font-size: 2rem;
+ }
+}
+@media screen and (min-width:1200px) {
+  .cabecalho{
+    width: 100%;
+    border: 1px solid rgb(125, 19, 19);
+  
+  }
+}
+
+
+
+@keyframes movimento {
+  from{
+  opacity: 0 ;
+
+  }
+  to{
+    opacity: 1;
+  }
+}
