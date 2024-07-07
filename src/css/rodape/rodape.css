@@ -25,17 +25,13 @@ text-align: center;
 
 @media screen and (min-width:710px) {
   .rodape__lista  a ,p{
-   font-size: 2rem;
+   font-size: 1rem;
   }
   .rodape__lista i{
-    scale: 3;
+
     margin-right: 10px;
   }
 }
 @media screen and (min-width:1200px) {
-  .cabecalho{
-    width: 100%;
-    border: 1px solid rgb(125, 19, 19);
-  
-  }
+ 
 }

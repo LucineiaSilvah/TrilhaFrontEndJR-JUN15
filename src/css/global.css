@@ -15,10 +15,21 @@ body,html{
   font-family: "Montserrat", sans-serif;
 }
 
-
+.container{
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.conteudo{
+  width: 100%;
+}
 .sessao{
-  margin: 10rem 0;
+  width: 100%;
+  margin-bottom:  5rem ;
   height: 100vh;
+  background: linear-gradient(180deg,transparent ,var(--preto) );
 }
 a{
   text-decoration: none;
@@ -36,16 +47,10 @@ span, span a{
 
 
 @media screen and (min-width:700px) {
- .sessao{
-  font-size: 2rem;
- }
+
 }
-@media screen and (min-width:1200px) {
-  .cabecalho{
-    width: 100%;
-    border: 1px solid rgb(125, 19, 19);
-  
-  }
+@media screen and (min-width:1000px) {
+ 
 }
 
 

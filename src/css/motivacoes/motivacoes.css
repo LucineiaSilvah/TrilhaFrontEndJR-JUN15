@@ -1,40 +1,36 @@
 .motivacoes{
-  background: var(--preto);
+
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
  
 }
 .motivacoes__descricao{
+  width: 100%;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
   text-align: center;
-
+  padding: 0 1rem;
 }
 .motivacoes__descricao p{
-  line-height: 1.2rem;
-  margin: 10px;
+ 
+  margin: 10px 0;
 }
-.motivacoes__descricao s{
-  padding: 5px;
-}
+
 .motivacoes__descricao span{
   color: var(--vermelho);
   font-weight: 500;
 }
 
 @media screen and (min-width:710px) {
-  .motivacoes{
-    font-size: 2rem;
-  }
-  .motivacoes p{
 
-  line-height: 3rem;
+  .motivacoes p{
+font-size: 1.2rem;
+  line-height: 1.5rem;
   }
 }
 @media screen and (min-width:1200px) {
-  .cabecalho{
-    width: 100%;
-    border: 1px solid rgb(125, 19, 19);
-  
-  }
+
 }

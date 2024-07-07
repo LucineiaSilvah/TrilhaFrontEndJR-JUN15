@@ -1,15 +1,21 @@
 
 .cabecalho{
+  width: 100%;
 background: var(--preto);
- position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 1rem;
+position: fixed;
+z-index: 1;
 }
 .logo{
-  width: 100px;
-  height: 80px;
- margin: 0 auto;
+  width: 80px;
+  height: 60px;
  border-radius: 10px;
  overflow: hidden;
- margin-bottom: 10px;
+
+ padding: 10px;
 }
 .logo img{
   width: 100%;
@@ -17,7 +23,11 @@ background: var(--preto);
 }
 /*Menu*/
 .menu{
-
+position: absolute;
+top: 60px;
+width: 100%;
+left: 0;
+right: 0;
  text-align: center;
  background: transparent;
 }
@@ -26,11 +36,11 @@ background: var(--preto);
   flex-direction: column;
   gap: 20px;
   animation: movimento 2s  ;
-  height: 150px;
-  position: absolute;
+  width: 100%;
+
   left: 0;
   right: 0;
-  background: var(--preto);
+  backdrop-filter: blur(20px);
   display: none;
 }
 
@@ -51,43 +61,62 @@ font-weight: 500;
 }
 /*toggle*/
 .fa-bars{
-  top: 40px;
-  right: 40px;
-  position: absolute;
+
   color: var(--vermelho);
 }
 @media screen and (min-width:700px) {
-  .fa-bars{
-    top: 40px;
-    right: 40px;
+  .menu{
     position: absolute;
+    top: 50px;
+    width: 100%;
+    left: 0;
+    right: 0;
+     text-align: center;
+     background: transparent;
+
+    }
+  .fa-bars{
+
+   
     color: var(--vermelho);
-    scale: 3;
+    font-size: 2rem;
   }
-  .logo{
-    width: 150px;
-    height: 100px;
  
-}
 .menu__lista a{
   color: var(--vermelho);
   padding-bottom: 10px;
 font-weight: 500;
-font-size: 2rem;
+
 
 }
 .menu__lista li{
   margin: 10px;
 };
 /*toggle*/
-
+.fa-bars{
+  font-size: 1rem;
+}
 
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1000px) {
   .cabecalho{
-    width: 100%;
-    border: 1px solid rgb(125, 19, 19);
-  
+font-size: 1.3rem;
+
+  }
+  .menu{
+   position: static;
+
+  }
+  .menu__lista{
+ 
+  color: black;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  display: flex;
+  }
+  .fa-bars{
+    display: none;
   }
 }
 
