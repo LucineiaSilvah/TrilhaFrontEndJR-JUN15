@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body,html{
-  background:url('/src/img/bg.webp')no-repeat fixed center / cover ;
+  background:url('https://images.unsplash.com/photo-1535868463750-c78d9543614f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJldG8lMjBlJTIwdmVybWVsaG8lMjBsYW1wYWRhfGVufDB8fDB8fHww')no-repeat fixed center / cover ;
   height: 100vh;
   color: var(--branco);
   font-family: "Montserrat", sans-serif;
@@ -25,10 +25,10 @@ body,html{
 .conteudo{
   width: 100%;
 }
-.sessao{
+.sessao, section{
   width: 100%;
   margin-bottom:  5rem ;
-  height: 100vh;
+  height:100%;
   background: linear-gradient(180deg,transparent ,var(--preto) );
 }
 a{
