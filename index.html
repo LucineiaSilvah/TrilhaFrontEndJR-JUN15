@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
@@ -32,11 +33,15 @@
   <body>
     <div class="container">
       <!--Cabecalho-->
-      <header class="cabecalho">
+      <header class="darkMode cabecalho">
         <div class="logo">
-          <img src="/src/img/logo (1).png" alt="logo codigo certo" />
+          <img src="/src/img/logo.png" alt="logo codigo certo" />
         </div>
         <i class="fa-solid fa-bars"></i>
+      
+        <p class="mode">
+        <i class="fa-solid fa-toggle-off"></i>
+        </p>
         <nav class="menu">
           <ul class="menu__lista menu_close">
             <li><a href="#perfil">Perfil</a></li>
@@ -50,7 +55,7 @@
       <!--conteudo principal-->
       <main class="conteudo">
         <!--sessao motivacoes-->
-        <section id="motivacoes" class="sessao motivacoes">
+        <section id="motivacoes" class="darkMode sessao motivacoes">
           <h2>Minhas Motivações</h2>
           <div class="motivacoes__descricao">
             <p>
@@ -75,7 +80,7 @@
           </div>
         </section>
         <!--sessao perfil-->
-        <section id="perfil" class="sessao perfil">
+        <section id="perfil" class="darkMode sessao perfil">
           <h2>Perfil</h2>
           <div class="perfil__foto">
             
@@ -93,7 +98,7 @@
           </div>
         </section>
         <!--sessao sobre-->
-        <section id="sobre" class="sessao sobre">
+        <section id="sobre" class="darkMode sessao sobre">
           <h2>Sobre</h2>
           <div class="sobre__descricao">
             <p>
@@ -106,7 +111,7 @@
           </div>
         </section>
         <!--sessao gostos-->
-        <section id="gostos" class="sessao gostos">
+        <section id="gostos" class="darkMode sessao gostos">
           <h2>Gostos Pessoais</h2>
           <ul class="gostos__lista">
             <li class="gostos__card">
@@ -128,18 +133,16 @@
           </ul>
         </section>
         <!--rodape-->
-        <footer class="rodape">
+        <footer class="darkMode rodape">
           <p>&copy; Todos os direitos reservados</p>
           <p>
             Dev:
-            <span
-              ><a
+            <span ><a
                 href="https://www.linkedin.com/in/lucineia-r-silva-frontend/"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Luh Silva</a
-              ></span
-            >
+              ></span>
           </p>
           <ul class="rodape__lista">
             <li>

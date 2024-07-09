@@ -23,8 +23,6 @@
  gap: 20px;
   justify-content: center;
   text-align: center;
-
-  color: var(--branco);
 }
 .perfil__dados p {
   margin-left: 10px;

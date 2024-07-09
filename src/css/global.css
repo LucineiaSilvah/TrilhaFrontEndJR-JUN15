@@ -9,9 +9,12 @@
   box-sizing: border-box;
 }
 body,html{
+<<<<<<< HEAD
   background:url('https://images.unsplash.com/photo-1535868463750-c78d9543614f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJldG8lMjBlJTIwdmVybWVsaG8lMjBsYW1wYWRhfGVufDB8fDB8fHww')no-repeat fixed center / cover ;
+=======
+  background:url("https://images.unsplash.com/photo-1535868463750-c78d9543614f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJldG8lMjBlJTIwdmVybWVsaG8lMjBsYW1wYWRhfGVufDB8fDB8fHww")no-repeat fixed center / cover ;
+>>>>>>> e56ccd6 (adicionado white mode)
   height: 100vh;
-  color: var(--branco);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -28,8 +31,13 @@ body,html{
 .sesso , section{
   width: 100%;
   margin-bottom:  5rem ;
+<<<<<<< HEAD
   height:100vh;
   background: linear-gradient(180deg,transparent ,var(--preto) );
+=======
+  height: 100vh;
+
+>>>>>>> e56ccd6 (adicionado white mode)
 }
 a{
   text-decoration: none;
@@ -41,11 +49,37 @@ h2{
   text-align: center;
   padding: 20px;
 }
-span, span a{
-  color: var(--vermelho);
+.mode{
+    top: 3.5rem;
+    left: 3rem;
+    position: fixed;
+    z-index: 1;
+}
+.darkMode{
+      background: linear-gradient(180deg,transparent ,var(--preto) );
+   color: var(--branco);
+}
+.darkMode a{   
+   color: var(--branco);
 }
 
+.whiteMode{
+    background: var(--branco);
+    color: var(--preto);
+}
+.whiteMode a{
+   
+    color: var(--preto);
+}
 
+.whiteMode a:hover{
+    
+    color: var(--vermelho);
+}
+span, 
+.darkMode span a{
+  color: var(--vermelho);
+}
 @media screen and (min-width:700px) {
 
 }

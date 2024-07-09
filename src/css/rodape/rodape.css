@@ -1,7 +1,6 @@
 .rodape{
 display: flex;
 flex-direction: column-reverse;
-  background: var(--preto);
 text-align: center;
 }
 .rodape__lista{
@@ -11,14 +10,12 @@ text-align: center;
   padding: 20px;
 }
 .rodape__lista a{
-  color: var(--branco);
+  
   cursor: pointer;
   font-style: italic;
   padding-left: 5px;
 }
-.rodape__lista a:hover{
-  color: var(--vermelho);
-}
+
 .rodape__lista a:visited{
   color: var(-vermelho);
 }
