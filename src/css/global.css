@@ -9,12 +9,8 @@
   box-sizing: border-box;
 }
 body,html{
-<<<<<<< HEAD
-  background:url('https://images.unsplash.com/photo-1535868463750-c78d9543614f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJldG8lMjBlJTIwdmVybWVsaG8lMjBsYW1wYWRhfGVufDB8fDB8fHww')no-repeat fixed center / cover ;
-=======
-  background:url("https://images.unsplash.com/photo-1535868463750-c78d9543614f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJldG8lMjBlJTIwdmVybWVsaG8lMjBsYW1wYWRhfGVufDB8fDB8fHww")no-repeat fixed center / cover ;
->>>>>>> e56ccd6 (adicionado white mode)
-  height: 100vh;
+  background:url('/src/img/bg.jpg')no-repeat fixed center / cover ;
+ height: 100%;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -28,16 +24,13 @@ body,html{
 .conteudo{
   width: 100%;
 }
-.sesso , section{
+.sessao , section{
   width: 100%;
   margin-bottom:  5rem ;
-<<<<<<< HEAD
   height:100vh;
   background: linear-gradient(180deg,transparent ,var(--preto) );
-=======
+  backdrop-filter: blur(5px);
   height: 100vh;
-
->>>>>>> e56ccd6 (adicionado white mode)
 }
 a{
   text-decoration: none;
@@ -57,6 +50,7 @@ h2{
 }
 .darkMode{
       background: linear-gradient(180deg,transparent ,var(--preto) );
+      backdrop-filter: blur(5px);
    color: var(--branco);
 }
 .darkMode a{   

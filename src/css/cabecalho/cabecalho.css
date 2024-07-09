@@ -50,7 +50,16 @@ right: 0;
 font-weight: 500;
 
 }
+.menu__lista a:hover{
+ text-decoration: overline;
 
+}
+.darkMode.menu{
+  background: var(--preto);
+}
+.whiteMode.menu{
+  background:var(--branco);
+}
 /*toggle*/
 .fa-bars{
   font-size: 1.5rem;
