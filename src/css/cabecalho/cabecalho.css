@@ -108,7 +108,7 @@ font-size: 1.3rem;
   .menu__lista{
   flex-direction: row;
   justify-content: flex-end;
-
+  padding: 10px;
   display: flex;
   }
   .fa-bars{
